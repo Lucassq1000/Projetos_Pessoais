@@ -77,7 +77,7 @@ main >.se2 > aside {
     color: white;
     text-align: justify;
     width: 600px;
-    margin: -322px 0px 0px 684px;
+    margin: -372px 0px 0px 684px;
 }
 main >.se2 > aside > h2 {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.527);
@@ -90,6 +90,18 @@ main >.se2 > aside > .p1 {
     color: white;
     font-family: var(--fonte-destaque);
     font-size: 1.3em;
+}
+main > .se2 .veja_mais {
+    margin: 20px 0px 0px 685px;
+    width: 150px;
+    font-size: 1.3em;
+    font-family: var(--fonte-destaque);
+    background-color: var(--cor04);
+    padding: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.445);
+    border: 1px solid black;
+    border-radius: 3px;
+
 }
 main > .se2 > .at1 > h2 {
     padding: 10px 0px 0px 0px;
@@ -111,6 +123,18 @@ main >.se2 > .at1 > .p1 {
     font-family: var(--fonte-destaque);
     font-size: 1.3em;
     line-height: 1.5em;
+}
+main >.se2 > .at1 .botao2 {
+    margin-top: 15px;
+    font-family: var(--fonte-destaque);
+    font-size: 1.3em;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.445);
+    background-color: var(--cor01);
+    color: var(--cor04);
 }
 main >.se2 > .at2 {
     margin: -360px 0px 0px 659px;
