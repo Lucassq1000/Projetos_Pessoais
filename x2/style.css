@@ -1,0 +1,173 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor01: #E11313;
+    --cor02: #151516;
+    --cor03: #3A3A3C;
+    --cor04: #E3E3E3;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque:'Bebas Neue', sans-serif;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor01);
+    font-family: var(--fonte-padrao);
+}
+header {
+    background-image: linear-gradient(to right, #000000b9 , transparent );
+    height: 100px;
+}
+header > h1 {
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    font-size: 4em;
+    padding: 10px 10px 0px 42px;
+    text-shadow: 2px 2px 4px #0000006e;
+}
+header > p {
+    font-family: var(--fonte-destaque);
+    color: white;
+    margin: -15px 0px 0px 128px;
+    font-size: 0.8em;
+}
+nav {
+    padding: 10px;
+    margin: -69px 20px 17px 600px;
+}
+nav > a {
+    font-family: var(--fonte-destaque);
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    padding: 10px;
+
+}
+nav > a:hover {
+    background-color: var(--cor02);
+    border-radius: 5px;
+}
+main {
+    max-width: 1000px;
+    min-width: 300px;
+}
+main h1 {
+    font-family: var(--fonte-destaque);
+}
+main h2 {
+    font-family: var(--fonte-destaque);
+}
+main > .se1 > aside > h1 {
+    font-size: 4em;
+}
+main .se1 aside {
+    color: white;
+    width: 700px;
+    margin: -612px 0px 215px 64px;
+    text-align: justify;
+}
+main >.se2 > aside {
+    color: white;
+    text-align: justify;
+    width: 600px;
+    margin: -322px 0px 0px 684px;
+}
+main >.se2 > aside > h2 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.527);
+    color: white;
+    font-size: 3em;
+}
+main >.se2 > aside > .p1 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.527);
+    padding: 10px 0px;
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 1.3em;
+}
+main > .se2 > .at1 > h2 {
+    padding: 10px 0px 0px 0px;
+    font-size: 3em;
+}
+main > .se2 > .at1 {
+    padding: 10px;
+    background-color: var(--cor02);
+    color: white;
+    width: 640px;
+    height: 340px;
+    text-align: justify;
+    margin: 27px 0px 0px 0px;
+}
+main >.se2 > .at1 > .p1 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.527);
+    padding: 10px 0px;
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+main >.se2 > .at2 {
+    margin: -360px 0px 0px 659px;
+    width: 640px;
+    background-color: var(--cor03);
+    padding: 31px 30px 25px 30px;
+    text-align: justify;
+    color: white;
+}
+main > .se2 > .at2 > h2 {
+    margin-top: -10px;
+    padding: 0px 0px 10px 5pxpx;
+    font-size: 3em;
+}
+main ul {
+    list-style-type: '\26DF\00a0\00a0';
+    padding: 0px 20px;
+}
+main ul > li {
+    font-family: var(--fonte-destaque);
+    font-size: 1.3em;
+    line-height: 2em;
+}
+main ul > li:hover {
+    background-color: var(--cor01);
+}
+main > .se3 > aside  {
+    text-align: justify;
+    width: 600px;
+    color: var(--cor04);
+    margin: -373px 0px 0px 696px;
+}
+main >.se3 > aside > h2 {
+    font-size: 2.4em;
+}
+main > .se3 > aside > p {
+    line-height: 1.3em;
+    font-family: var(--fonte-padrao);
+}
+footer {
+    padding: 41px 0px 0px 111px;
+    background-color: var(--cor04);
+}
+footer h2 {
+    font-family: var(--fonte-destaque);
+    color: #151516;
+    font-size: 2em;
+}
+ footer p {
+    font-family: var(--fonte-destaque);
+    color: #E11313;
+
+ }
+ footer aside {
+    text-align: justify;
+    padding: 30px;
+    display: inline-block;
+    width: 300px;
+ }
+
